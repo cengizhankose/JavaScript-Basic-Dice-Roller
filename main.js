@@ -10,7 +10,7 @@ const max = 6 //maximum and minimum random number values because we are rolling 
 const min = 1
 
 function randomNumber(minNum,maxNum){ //Random number generator function
-    return randomNum = Math.floor(Math.random() * (maxDice - minDice + 1)) + minDice //maths of the random number generator
+    return randomNum = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum //maths of the random number generator
 }
 
 var dice1 = randomNumber(min,max) //rolling dices 
